@@ -2,7 +2,7 @@
 ### Automatically manage duel information with ease!
 ## Made for NMO #2 and beyond!
 
-![image](https://github.com/user-attachments/assets/64277fd3-383a-46cc-85b6-7b96efabcd4a)
+<img width="656" height="521" alt="A showcase of the settings of StreamView." src="https://github.com/user-attachments/assets/5204095a-75a4-4eb2-9015-1b47fded3a99" />
 
 ## Features
 - Simple, easy setup for tournament players
@@ -27,7 +27,7 @@ This project uses Visual Studio 2022 as its project manager. When opening the Vi
 Most will be in `Neon White_data/Managed`. Some will be in `MelonLoader/net35`, **not** `net6`. Select the `NeonLite` and `NeonNetwork` mods for those references. 
 If you get any weird errors, try deleting the references and re-adding them manually.
 
-![image](https://github.com/user-attachments/assets/8c9b7408-d217-477a-93b1-12b565c8ee4b)
+<img width="339" height="373" src="https://github.com/user-attachments/assets/8a6496e2-81a7-48ae-8307-275ee055d99f" />
 
 Once your references are correct, build using the keybind or like the picture below.
 
