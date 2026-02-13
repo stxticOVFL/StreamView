@@ -1,9 +1,6 @@
-﻿using NeonLite;
-using NeonLite.Modules;
+﻿using NeonLite.Modules;
 using UnityEngine;
 using StreamView.Objects;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace StreamView//.Objects
 {

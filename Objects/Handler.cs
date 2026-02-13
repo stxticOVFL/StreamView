@@ -2,17 +2,12 @@
 using MelonLoader;
 using MelonLoader.TinyJSON;
 using NeonLite.Modules;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using static StreamView.OBSInfo;
-using NeonLite;
 
 namespace StreamView.Objects
 {

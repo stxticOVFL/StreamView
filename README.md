@@ -23,14 +23,7 @@
 *(coming soon!)*
 
 ## Building & Contributing
-This project uses Visual Studio 2022 as its project manager. When opening the Visual Studio solution, ensure your references are corrected by right clicking and selecting `Add Reference...` as shown below. 
-Most will be in `Neon White_data/Managed`. Some will be in `MelonLoader/net35`, **not** `net6`. Select the `NeonLite` and `NeonNetwork` mods for those references. 
-If you get any weird errors, try deleting the references and re-adding them manually.
+This project is based on [**NWCommon.**](https://github.com/stxticOVFL/NWCommon/tree/master?tab=readme-ov-file) 
+Follow the build instructions on the repository.
 
-<img width="339" height="373" src="https://github.com/user-attachments/assets/8a6496e2-81a7-48ae-8307-275ee055d99f" />
-
-Once your references are correct, build using the keybind or like the picture below.
-
-![image](https://github.com/stxticOVFL/EventTracker/assets/29069561/40a50e46-5fc2-4acc-a3c9-4d4edb8c7d83)
-
-Make any edits as needed, and make a PR for review. PRs are very appreciated.
+Make any edits as needed, and make a PR for review. PRs are very appreciated!

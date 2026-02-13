@@ -1,12 +1,6 @@
 ﻿using MelonLoader.TinyJSON;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.WebSockets;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using UnityEngine;
 using static StreamView.OBSInfo;
 
@@ -126,7 +120,7 @@ namespace StreamView.Objects
             {
                 OBSPacket packet = null;
                 await sendSemaphore.WaitAsync();
-                if (sendQueue.Count > 0) 
+                if (sendQueue.Count > 0)
                     packet = sendQueue.Dequeue();
                 sendSemaphore.Release();
                 if (packet != null)
@@ -140,7 +134,7 @@ namespace StreamView.Objects
                     {
                         await ws.SendAsync(buffer, WebSocketMessageType.Text, true, canceller.Token);
                     }
-                    catch {}
+                    catch { }
                 }
             }
         }

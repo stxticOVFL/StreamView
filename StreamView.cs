@@ -46,7 +46,9 @@ namespace StreamView
         public static void Register()
         {
             NeonLite.Settings.AddHolder(h);
+#if DEBUG
             debug = NeonLite.Settings.Add(h, "", "debug", "Debug Mode", null, false, true);
+#endif
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using MelonLoader.TinyJSON;
 using StreamView.Objects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using static StreamView.OBSInfo.Events;
 using static StreamView.OBSInfo.Requests;
@@ -124,7 +121,7 @@ namespace StreamView
                         if (awaiter.activeNext)
                         {
                             awaiter.activeCurrent = true;
-                            awaiter.CopyToNext(); // this ultimately sets activeNext 
+                            awaiter.CopyToNext(); // this ultimately sets activeNext
                         }
                         else if (awaiter.activeCurrent) // if not activeNext but we were activeCurrent, we're fucked
                         {
