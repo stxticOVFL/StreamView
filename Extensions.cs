@@ -6,6 +6,7 @@ namespace StreamView
 {
     internal static class Extensions
     {
+#pragma warning disable CS0162
         [Conditional("DEBUG")]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         internal static void DebugMsg(this MelonLogger.Instance log, string msg)
